@@ -7,6 +7,7 @@ let numberList = [1,2,-1,3,5,7];
 
 function sumList(list){
     let result=0;
+    //list.forEach(value => result +=value)
     for (let i = 0; i < numberList.length; i++) {
         result+=numberList[i];
     }
