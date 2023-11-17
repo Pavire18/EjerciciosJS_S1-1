@@ -32,7 +32,7 @@ function winner2(list){
     for (let i = 0; i < list.length; i++) {
         if(list[i].score>scoreAux){
             scoreAux=list[i].score;
-            winner=playelistrList[i].name;
+            winner=list[i].name;
         }
     }
     return winner;
